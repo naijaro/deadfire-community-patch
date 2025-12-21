@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <Entries>
+    <Entry>
+      <ID>20055</ID>
+      <DefaultText>Die Angriffe des Barbaren werden derart heftig, dass auch andere um das anvisierte Ziel davon betroffen werden. Für jeden erfolgreichen Nahkampfangriff führt der Barbar einen Angriff mit verringertem Schaden auf alle anderen Feinde in einem geringen Umkreis um das Ziel herum aus. Der Schaden dieser Angriffe erhöht sich um +3.3% pro Kraftstufe.</DefaultText>
+      <FemaleText />
+	  </Entry>
+    <Entry>
+      <ID>20200</ID>
+      <DefaultText>Hirsch-Blutbad</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20201</ID>
+      <DefaultText>Erfolgreiche Angriffe mit Druidenhirsch-Geweihen treffen auch Feinde in der Nähe (wie Blutbad des Barbaren). Der Schaden dieser Angriffe erhöht sich um +2% pro Kraftstufe.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20202</ID>
+      <DefaultText>Beruht auf der natürlichen Verbindung des Druiden zum Hirsch, wodurch er vorübergehend diese Form annehmen kann. Die Hirsch-Geisterwandlerform hat höhere Verteidigungswerte und kann mit ihrem Blutbad-Nahkampfangriff ganze Gruppen von Feinden gleichzeitig angreifen.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20500</ID>
+      <DefaultText>Angriffe aus der Heimlichkeit oder Unsichtbarkeit heraus verursachen zusätzlichen direkten Schaden. Der Schurke kann Nahkampf- oder Fernkampfwaffen verwenden, muss sich aber innerhalb von 2 m vom Ziel befinden.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

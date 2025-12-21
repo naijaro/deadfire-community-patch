@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <Entries>
+    <Entry>
+      <ID>20055</ID>
+      <DefaultText>{0:value:percent} vom grundlegenden Waffenschaden in 1.5m Radius (Flächenzauber verstärkt sich mit Intellekt) bei einem Treffer mit der Waffe</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20550</ID>
+      <DefaultText>+100% Schaden im Laufe der Zeit</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

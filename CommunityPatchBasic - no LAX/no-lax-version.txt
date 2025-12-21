@@ -1,0 +1,4 @@
+Sometimes players without expansions ("Beast of Winter", "Seeker, Slayer, Survivor", "Forgotten Sanctum") get black screen when loading the game.
+
+This mod version is for them.
+

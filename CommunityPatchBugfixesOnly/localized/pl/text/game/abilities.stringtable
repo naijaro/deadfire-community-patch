@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <Entries>
+    <Entry>
+      <ID>20055</ID>
+      <DefaultText>The barbarian's attacks become so forceful as to impact others around the target enemy. For every successful melee attack, the barbarian makes reduced-damage attacks with Raw Damage at all other enemies within a short distance of the target. The damage of these attacks increases by +3.3% per Power Level.</DefaultText>
+      <FemaleText />
+  	</Entry>
+    <Entry>
+      <ID>20200</ID>
+      <DefaultText>Stag Carnage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20201</ID>
+      <DefaultText>Pomyślne ataki z rogót jelenia także trafiają pobliskich przeciwników (jak Masakra Barbarzyńcy). Obrażenia tych ataków zwiększają się o +2% za każdy Poziom Siły. </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20202</ID>
+      <DefaultText>Przyjmuje natrualne połączenie Druida z Jeleniem. Chwilowo pozwala przyjąć tę formę. Froma Jelenia posiada większą obronę i pozwala na atakowanie w zwarciu grupy przeciwników (Masakra).</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

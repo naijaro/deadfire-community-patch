@@ -1,0 +1,251 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party",
+      "ID": "79913a7b-903c-4cb5-9765-99acc52f2949",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "DisplayName": 3201,
+          "Description": 4564,
+          "StatusEffectsIDs": [
+            "d58c98e2-9a29-4c05-8619-ea918a7d0492",
+            "6e1773e0-e7f7-4e4e-9051-a50a02e3cc22",
+            "fe8ac7df-89b1-4de4-8b41-6c429dfb59ab",
+            "9d595322-a550-4944-b5bc-87eef2092d63",
+            "864ac8b7-2c05-40c6-8cb5-0ae1860e51b6",
+            "e14e29fe-312d-4d4e-8212-66481638ee42",
+            "c1f2bfa2-3163-4ea3-9fcd-3eda8a30d07d",
+            "5562114e-7cd4-4b18-8659-c499dd39afe1",
+            "5401a035-19fe-4897-bb30-2e7653771e2d",
+            "e600c953-850e-4360-9eb9-ab8ffbaba460",
+            "916a385e-8add-489f-9d37-c73a7816aa56",
+            "85b59f6d-7f2b-4a4d-8cee-1604146f5a6a",
+            "46ce8883-f366-4de4-a33d-48d93b7694c7",
+            "db678ee2-d360-4838-95c4-604285212367",
+            "798593aa-7938-428d-be4f-c9943442f69b",
+            "cd6acf73-8c20-46cb-987e-32b1e522cf46"
+          ],
+          "GrantedViaScript": "true"
+        },
+        {
+          "$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+          "SpecialGenericAbilityType": "PartyAbility"
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Alchemy",
+      "ID": "d58c98e2-9a29-4c05-8619-ea918a7d0492",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20901,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Arcana",
+      "ID": "6e1773e0-e7f7-4e4e-9051-a50a02e3cc22",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20902,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Athletics",
+      "ID": "fe8ac7df-89b1-4de4-8b41-6c429dfb59ab",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20903,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Bluff",
+      "ID": "9d595322-a550-4944-b5bc-87eef2092d63",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20904,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Diplomacy",
+      "ID": "864ac8b7-2c05-40c6-8cb5-0ae1860e51b6",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20905,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Explosives",
+      "ID": "e14e29fe-312d-4d4e-8212-66481638ee42",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20906,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_History",
+      "ID": "c1f2bfa2-3163-4ea3-9fcd-3eda8a30d07d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20907,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Insight",
+      "ID": "5562114e-7cd4-4b18-8659-c499dd39afe1",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20908,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Intimidate",
+      "ID": "5401a035-19fe-4897-bb30-2e7653771e2d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20909,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Mechanics",
+      "ID": "e600c953-850e-4360-9eb9-ab8ffbaba460",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20910,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Metaphysics",
+      "ID": "916a385e-8add-489f-9d37-c73a7816aa56",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20911,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Religion",
+      "ID": "85b59f6d-7f2b-4a4d-8cee-1604146f5a6a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20912,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Sleight_Of_Hand",
+      "ID": "46ce8883-f366-4de4-a33d-48d93b7694c7",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20913,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Stealth",
+      "ID": "db678ee2-d360-4838-95c4-604285212367",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20914,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Streetwise",
+      "ID": "798593aa-7938-428d-be4f-c9943442f69b",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20915,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Berath_BonusSkills_Party_SE_Survival",
+      "ID": "cd6acf73-8c20-46cb-987e-32b1e522cf46",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "Skill",
+          "OverrideDescriptionString": 20916,
+          "OverrideDescriptionStringTactical": -1
+        }
+      ]
+    }
+  ]
+}

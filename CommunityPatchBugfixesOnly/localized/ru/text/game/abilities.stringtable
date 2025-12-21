@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <Entries>
+    <Entry>
+      <ID>20055</ID>
+      <DefaultText>Aтаки варвара становятся настолько мощными, что задевают других персонажей. Вместе с каждой &lt;link="stringtooltip://cyclopedia/2047"&gt;успешной атакой&lt;/link&gt; ближнего боя варвар проводит дополнительные атаки со сниженным &lt;link="stringtooltip://cyclopedia/2045"&gt;Чистым уроном&lt;/link&gt; по всем противникам в небольшом радиусе от цели. Урон таких атак повышается на 3.3% с каждым &lt;link="glossary://GlossaryEntry_Power_Level"&gt;Уровнем мощи&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20200</ID>
+      <DefaultText>Резня друида-оленя</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20201</ID>
+      <DefaultText>Pога оленя поражают не только основную цель, но и всех ближайших к ней противников, подобно «Резне» варвара. Урон таких атак повышается на 2% с каждым &lt;link="glossary://GlossaryEntry_Power_Level"&gt;Уровнем мощи&lt;/link&gt;.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20202</ID>
+      <DefaultText>Eстественная связь друида с оленем, позволяет ему временно принять образ животного.
+	  
+При трансформации духа в форму оленя, друид наносит &lt;link="glossary://GlossaryEntry_Damage"&gt;Колющий урон&lt;/link&gt;, получает увеличенные показатели &lt;link="glossary://GlossaryEntry_Defenses"&gt;защиты&lt;/link&gt;, а также использует &lt;link="gamedata://c40983ed-2c60-4dd4-9d1f-3a55a40ed821"&gt;&lt;b&gt;Резню&lt;/b&gt;&lt;/link&gt;, чтобы наносить &lt;link="glossary://GlossaryEntry_Damage"&gt;урон&lt;/link&gt; сразу нескольким противникам.
+
+Пока друид находится в трансформированном состоянии, все бонусы экипировки, кроме оружия и доспехов, продолжают действовать.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <Entries>
+    <Entry>
+      <ID>20055</ID>
+      <DefaultText>{0:value:percent} от базового урона оружия наносится врагам в радиусе 1.5 м. (увеличивается с &lt;link="glossary://GlossaryEntry_Intellect"&gt;Интеллектом&lt;/link&gt;) в виде &lt;link="stringtooltip://cyclopedia/2045"&gt;Чистого урона&lt;/link&gt;, при &lt;link="stringtooltip://cyclopedia/2047"&gt;успешной атаке&lt;/link&gt; по основной цели</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20550</ID>
+      <DefaultText>+100% скорость действия &lt;link="stringtooltip://cyclopedia/2044"&gt;постепенного урона&lt;/link&gt;</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
