@@ -1,0 +1,31 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+            "DebugName": "Soul_Whip_Beguiler_SE_DamageMult",
+            "ID": "465e5f1a-06dd-47b5-aab2-4caec3a17d9f",
+            "Components": [
+                {
+                    "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+                    "AttackTargetFilter": {
+                        "KeywordsIDs": [
+                            "8ca098ca-731e-481d-b958-a337064afd6c",
+                            "13d9f275-8a57-4f99-9ead-ef798ce7c53a",
+                            "4cb9e779-269f-42e3-8855-feabb837d50c"
+                        ],
+                        "KeywordLogic": "Or",
+                        "Race": "None",
+                        "IsKith": "false",
+                        "HealthPercentage": 0,
+                        "HealthOperator": "EqualTo",
+                        "Distance": 0,
+                        "DistanceOperator": "EqualTo",
+                        "HasDOT": "false",
+                        "IsMarked": "false",
+                        "TargetHostility": "Default"
+                    }
+                }
+            ]
+        }
+    ]
+}
