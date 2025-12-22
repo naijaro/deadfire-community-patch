@@ -1,6 +1,45 @@
 ﻿{
 	"GameDataObjects": [
 		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "Backstab_SE_DamageMult",
+			"ID": "2d02288e-abba-4775-a12c-938571a1ab73",
+			"Components": [
+				{
+					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+					"PowerLevelScaling": {
+						"UseCharacterLevel": "false",
+						"BaseLevel": 1,
+						"LevelIncrement": 1,
+						"MaxLevel": 0,
+						"ValueAdjustment": 0.05,
+						"DurationAdjustment": 0
+					},
+					"AttackFilter": {
+						"KeywordsIDs": [],
+						"KeywordLogic": "Or",
+						"Race": "None",
+						"IsKith": "false",
+						"HealthPercentage": 0,
+						"HealthOperator": "EqualTo",
+						"Range": "None",
+						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
+						"Source": "Weapon",
+						"DefendedBy": "None",
+						"Empowered": "false",
+						"Disengagement": "false",
+						"Stealthed": "false",
+						"UseStealthLinger": "false",
+						"PowerLevel": 0,
+						"PowerLevelOperator": "EqualTo",
+						"ChanceToApply": 1,
+						"AttackHostility": "Default",
+						"TargetType": "None"
+					}
+				}
+			]
+		},
+		{
 			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
 			"DebugName": "Backstab",
 			"ID": "8a9da061-40b3-478c-be72-1b85bb112766",
@@ -88,45 +127,6 @@
 								}
 							]
 						}
-					}
-				}
-			]
-		},
-		{
-			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-			"DebugName": "Backstab_SE_DamageMult",
-			"ID": "2d02288e-abba-4775-a12c-938571a1ab73",
-			"Components": [
-				{
-					"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-					"PowerLevelScaling": {
-						"UseCharacterLevel": "false",
-						"BaseLevel": 1,
-						"LevelIncrement": 1,
-						"MaxLevel": 0,
-						"ValueAdjustment": 0.05,
-						"DurationAdjustment": 0
-					},
-					"AttackFilter": {
-						"KeywordsIDs": [],
-						"KeywordLogic": "Or",
-						"Race": "None",
-						"IsKith": "false",
-						"HealthPercentage": 0,
-						"HealthOperator": "EqualTo",
-						"Range": "None",
-						"ClassTypeID": "00000000-0000-0000-0000-000000000000",
-						"Source": "Weapon",
-						"DefendedBy": "None",
-						"Empowered": "false",
-						"Disengagement": "false",
-						"Stealthed": "false",
-						"UseStealthLinger": "false",
-						"PowerLevel": 0,
-						"PowerLevelOperator": "EqualTo",
-						"ChanceToApply": 1,
-						"AttackHostility": "Default",
-						"TargetType": "None"
 					}
 				}
 			]
