@@ -3,6 +3,11 @@
   <Name>game\statuseffects</Name>
   <Entries>
     <Entry>
+      <ID>583</ID>
+      <DefaultText>Requires 2 hands to wield, but deals increased damage</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>20000</ID>
       <DefaultText>+15% Affliction and Inspiration duration</DefaultText>
       <FemaleText />
@@ -50,6 +55,26 @@
     <Entry>
       <ID>20504</ID>
       <DefaultText>25% chance to counter-attack the enemy when Missed or Grazed with a Melee Weapon attack</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20672</ID>
+      <DefaultText>{0:value:straight} Slash Damage per 3.0 sec for 6.0 sec</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20673</ID>
+      <DefaultText>{0:value:straight} Burn Damage per 3.0 sec for 6.0 sec</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20674</ID>
+      <DefaultText>and same amount as Burn Damage per 3.0 sec</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20675</ID>
+      <DefaultText>Immolation</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

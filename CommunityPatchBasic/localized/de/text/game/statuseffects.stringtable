@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\statuseffects</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>10</EntryCount>
   <Entries>
+    <Entry>
+      <ID>583</ID>
+      <DefaultText>Muss mit beiden Händen geführt werden, fügt aber mehr Schaden zu.</DefaultText>
+      <FemaleText />
+    </Entry>
     <Entry>
       <ID>20000</ID>
       <DefaultText>+15% Dauer mit ermächtigten Aktionen</DefaultText>

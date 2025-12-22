@@ -3,6 +3,11 @@
   <Name>game\statuseffects</Name>
   <Entries>
     <Entry>
+      <ID>583</ID>
+      <DefaultText>Занимает обе руки, но наносит повышенный урон</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>20000</ID>
       <DefaultText>+15% длительность накладываемых Вдохновений и Воздействий</DefaultText>
       <FemaleText />
@@ -50,6 +55,21 @@
     <Entry>
       <ID>20504</ID>
       <DefaultText>25% шанс провести контратаку в ответ на &lt;link="glossary://GlossaryEntry_Miss"&gt;промах&lt;/link&gt; или &lt;link="glossary://GlossaryEntry_Graze"&gt;легкое попадание&lt;/link&gt; оружием ближнего боя</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20672</ID>
+      <DefaultText>Урон {0:value:straight} (Рубящий) каждые 3,0 сек. на 6,0 сек.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20673</ID>
+      <DefaultText>Урон {0:value:straight} (Огненный) каждые 3,0 сек. на 6,0 сек.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>20674</ID>
+      <DefaultText>и такое же количество Урона (Огненный) каждые 3,0 сек.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

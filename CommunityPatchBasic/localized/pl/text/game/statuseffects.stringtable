@@ -3,6 +3,11 @@
   <Name>game\statuseffects</Name>
   <Entries>
     <Entry>
+      <ID>583</ID>
+      <DefaultText>Wymaga dwóch rąk, ale zadaje zwiększone obrażenia</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
       <ID>20000</ID>
       <DefaultText>+15% Czasu trwania z wzmocnionymi akcjami</DefaultText>
       <FemaleText />
