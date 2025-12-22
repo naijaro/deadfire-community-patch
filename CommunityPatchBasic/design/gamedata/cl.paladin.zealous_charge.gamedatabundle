@@ -1,48 +1,6 @@
 {
 	"GameDataObjects": [
 		{
-			"$type": "Game.GameData.AuraAbilityGameData, Assembly-CSharp",
-			"DebugName": "Zealous_Charge",
-			"ID": "7a404b64-3e73-4f8f-985d-9ec3c5abe9c4",
-			"Components": [
-				{
-					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
-					"DisplayName": 65,
-					"Description": 20350,
-					"StatusEffectsIDs": [
-						"b1c60e81-03a1-41ea-9089-27dc56ddc0de",
-						"09bfca16-841e-4c7a-9d51-3f30cab79cc6",
-						"ac7131ea-6ed4-4034-8339-d3dddbab9482"
-					]
-				}
-			]
-		},
-		{
-			"$type": "Game.GameData.AuraAbilityGameData, Assembly-CSharp",
-			"DebugName": "Exalted_Charge",
-			"ID": "ab64fe02-c69a-4fd6-a9f3-3cb3c9377e78",
-			"Components": [
-				{
-					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
-					"DisplayName": 2007,
-					"Description": 20350,
-					"UpgradeDescriptions": [
-						{
-							"String": 2008,
-							"StringTactical": -1
-						}
-					],
-					"UpgradedFromID": "7a404b64-3e73-4f8f-985d-9ec3c5abe9c4",
-					"StatusEffectsIDs": [
-						"a1cea419-88fb-46ae-a882-cf4ffe53ffec",
-						"7fc72ba5-9d99-4cd8-913a-9647120b85c1",
-						"37d5abe5-d066-4800-806c-f6689bd6be29",
-						"ac7131ea-6ed4-4034-8339-d3dddbab9482"
-					]
-				}
-			]
-		},
-		{
 			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
 			"DebugName": "Zealous_Charge_SE_Speed_Bonus",
 			"ID": "ac7131ea-6ed4-4034-8339-d3dddbab9482",
@@ -165,6 +123,48 @@
 					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
 					"BedRestDaysMinimum": 0,
 					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AuraAbilityGameData, Assembly-CSharp",
+			"DebugName": "Zealous_Charge",
+			"ID": "7a404b64-3e73-4f8f-985d-9ec3c5abe9c4",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"DisplayName": 65,
+					"Description": 20350,
+					"StatusEffectsIDs": [
+						"b1c60e81-03a1-41ea-9089-27dc56ddc0de",
+						"09bfca16-841e-4c7a-9d51-3f30cab79cc6",
+						"ac7131ea-6ed4-4034-8339-d3dddbab9482"
+					]
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AuraAbilityGameData, Assembly-CSharp",
+			"DebugName": "Exalted_Charge",
+			"ID": "ab64fe02-c69a-4fd6-a9f3-3cb3c9377e78",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"DisplayName": 2007,
+					"Description": 20350,
+					"UpgradeDescriptions": [
+						{
+							"String": 2008,
+							"StringTactical": -1
+						}
+					],
+					"UpgradedFromID": "7a404b64-3e73-4f8f-985d-9ec3c5abe9c4",
+					"StatusEffectsIDs": [
+						"a1cea419-88fb-46ae-a882-cf4ffe53ffec",
+						"7fc72ba5-9d99-4cd8-913a-9647120b85c1",
+						"37d5abe5-d066-4800-806c-f6689bd6be29",
+						"ac7131ea-6ed4-4034-8339-d3dddbab9482"
+					]
 				}
 			]
 		}
