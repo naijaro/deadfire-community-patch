@@ -1,0 +1,16 @@
+{
+	"GameDataObjects": [
+        {
+            "$type": "Game.GameData.AttackRandomAOEGameData, Assembly-CSharp",
+            "DebugName": "Wahai_Poraga_AoE",
+            "ID": "8266b7fd-87ce-44ca-ab11-ca11775c8eab",
+            "Components": [{
+                "$type": "Game.GameData.AttackPulsedAOEComponent, Assembly-CSharp",
+                "Duration": 0.1
+            }, {
+                "$type": "Game.GameData.AttackRandomAOEComponent, Assembly-CSharp",
+                "NumHits": 3
+            }]
+        }
+    ]
+}
