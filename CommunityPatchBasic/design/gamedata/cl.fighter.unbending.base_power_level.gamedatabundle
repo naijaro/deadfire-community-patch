@@ -1,0 +1,18 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Unbending",
+      "ID": "95175545-b157-4fee-8a56-4f13e5cd9820",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "AbilityLevel": 5
+        },
+        {
+          "$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+        }
+      ]
+    }
+  ]
+}
