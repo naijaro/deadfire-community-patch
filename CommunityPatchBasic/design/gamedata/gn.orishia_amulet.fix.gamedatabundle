@@ -1,0 +1,19 @@
+{
+    "GameDataObjects": [
+    	{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "oshiria_undecisive_ability",
+			"ID": "cf1ed8cc-ff4d-4cc1-b2ad-db58c5875d4a",
+			"Components": [
+			  {
+				"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+				"IsCombatOnly": "true",
+				"IsNonCombatOnly": "false"
+			  },
+			  {
+				"$type": "Game.GameData.ProgressionUnlockableComponent, Assembly-CSharp"
+			  }
+			]
+		  }
+    ]
+}
