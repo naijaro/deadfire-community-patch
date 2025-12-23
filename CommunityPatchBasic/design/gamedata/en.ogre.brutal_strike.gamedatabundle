@@ -1,0 +1,18 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ogre_cutthroat_brutal_strike_SEAccuracy",
+      "ID": "52291f68-904d-49e0-9fa7-b1a2f33f4607",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "StatusEffectType": "AllAccuracy",
+          "IsHostile": "true",
+          "ClearOnRest": "true",
+          "ClearOnFoodRest": "true"
+        }
+      ]
+    }
+  ]
+}
