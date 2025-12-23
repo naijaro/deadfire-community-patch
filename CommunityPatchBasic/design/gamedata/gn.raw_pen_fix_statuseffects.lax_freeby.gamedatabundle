@@ -1,0 +1,59 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Ooze_Black_Symbiote_SE_RawDoT",
+      "ID": "0128494b-42d9-4640-8428-d5fe9773fb35",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Forbidden_Fist_SE_RawDamage",
+      "ID": "624a1fb9-c840-4722-a384-3ad37b86e893",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Sacrifice_SE_RawDamage_Tier1",
+      "ID": "99a6f9de-f05e-421f-9122-6088e8309ff0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Sacrifice_SE_RawDamage_Tier2",
+      "ID": "d9ca4688-55eb-4ecd-9f02-fb0477ba5c1e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Sacrifice_SE_RawDamage_Tier3",
+      "ID": "dc6ca342-f8ea-4810-9631-9fcecac0721d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    }
+  ]
+}

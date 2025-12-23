@@ -1,0 +1,224 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Boil_Their_Flesh_From_AoE",
+      "ID": "5871ee25-c665-4e44-bdd4-a21b7671f433",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "And_Sip_From_The_Aoe",
+      "ID": "4f8b1d4b-924c-448d-a8e1-9f8e48814783",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Screaming_Souls_ExtraAOE",
+      "ID": "2a8738e2-ba23-465f-b19e-6ceb271677a0",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Dismissal_AOE",
+      "ID": "4b250005-0aa8-4836-be87-b92b6e56f640",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Arcane_Assault_AOE",
+      "ID": "bf8b782d-37d7-4d53-88db-183be15d5e7f",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Wilting_Wind_AOE",
+      "ID": "dceb33df-79bc-4b70-9a44-cfb2ccb2344a",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Scroll_of_wilting_wind_AoE",
+      "ID": "8639fd63-5e63-4a7b-9cbf-8915a3bc9108",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "Wind_Calling_WiltingWind_AoE",
+      "ID": "d2507aa9-9124-485f-b73d-9bfae33fef9b",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackBeamGameData, Assembly-CSharp",
+      "DebugName": "Ninagauths_Death_Ray_Beam",
+      "ID": "c4f4276c-a3da-4cdf-9138-8a1cdb0dd4aa",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+      "DebugName": "Wall_of_Many_Colors_Trap_Green_Melee",
+      "ID": "464a59db-5ef0-4f9d-af8b-876e49e1753c",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+      "DebugName": "Reaping_Knives_Weapon_Attack",
+      "ID": "ed69c7b4-5f5c-418c-885a-fcdc5e5c8c85",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackPulsedAOEGameData, Assembly-CSharp",
+      "DebugName": "Venombloom_Pulse",
+      "ID": "2442abcd-c2be-49d3-9b35-fe5f612df330",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackPulsedAOEGameData, Assembly-CSharp",
+      "DebugName": "Malignant_Cloud_Aoe",
+      "ID": "3ba16a8f-34a7-4518-a9db-e6c2262bd5ea",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Mind_Wave_Target",
+      "ID": "a71cab8c-1ffe-4a68-904b-92a08e366822",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Silent_Scream_Target",
+      "ID": "86717a96-8094-46b0-8fcd-8ddf815992d6",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Brutal_Backlash_Target",
+      "ID": "8e8ec076-4289-4ae7-9d7e-c4b3c35b1625",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Abjuration_Ranged",
+      "ID": "f2ea6c0d-01b9-43f5-9e96-1b74cd5e7049",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Ninagauths_Killing_Bolt_Ranged",
+      "ID": "634f6a86-9dc7-4d30-9c05-c73b40f24e44",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+      "DebugName": "Prologue_Soul_Suck_Hit",
+      "ID": "dc57009c-8a61-4f4b-a07c-13d5f08f59b0",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackWallGameData, Assembly-CSharp",
+      "DebugName": "LAX03_Wall_of_Proliferation_Trap",
+      "ID": "76ac1b40-3d2c-4497-a1cd-2f9f3fadeb61",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "PenetrationRating": 7
+        }
+      ]
+    }
+  ]
+}

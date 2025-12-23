@@ -1,0 +1,1005 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Galawain_Reflecting_SE_Damage",
+      "ID": "aeb20124-4367-4f70-86ae-1ac3694e6e52",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Carnage_SE_PrimaryAttackDamage",
+      "ID": "66b57397-54c6-4260-b401-97f9c6fcf163",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Carnage_SE_SecondaryAttackDamage",
+      "ID": "b19dd776-94e4-4e63-804e-589793e3918c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Frenzy_SE_BerserkerRawDOT",
+      "ID": "2d79448d-0fc5-41fc-9c93-bd5c950632c6",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Frenzy_SE_Bleed",
+      "ID": "086038a5-b598-4301-905c-86dfa96ab598",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Frenzy_SE_BerserkerRawDOT",
+      "ID": "4ea0368d-5ddb-4363-be9d-bb9725bc064f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Spirit_Frenzy_SE_BerserkerRawDOT",
+      "ID": "87442e2b-f61c-4b21-a153-5e75c3b3576a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Storm_SE_Bleed",
+      "ID": "a8ea63db-5592-4535-b4fc-7b201e44b925",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blood_Storm_SE_BerserkerRawDOT",
+      "ID": "cd63abf9-8168-480a-bea5-01eab9268760",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Spirit_Tornado_SE_BerserkerRawDOT",
+      "ID": "d28a8956-63fc-4c03-8b30-f0093956d566",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Panthers_Leap_SE_RawDoT",
+      "ID": "2a8870a1-b4d2-4963-b53b-64f1543a1e31",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Come_Come_Soft_Winds_SE_Damage",
+      "ID": "8942c0d5-b485-47a5-9cac-9cd98044aca9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Soul_Annihilation_SE_RawDamage",
+      "ID": "122c3921-9d3a-48d0-82ab-04504ca19799",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Recall_Agony_SE_DamageReturned",
+      "ID": "6589b2aa-0be4-4c3d-9ea9-e43d16bee102",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pain_Link_SE_RawDamage",
+      "ID": "5b52064d-47ca-42c5-be3a-22aee135f95a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Disintegration_SE_RawDamage",
+      "ID": "50ebdc84-eedc-456d-865d-b8a0be40d966",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Death_Of_1000_Cuts_SE_RawDamage",
+      "ID": "becac7b4-3fbf-4a2f-b4a0-7f1116279d64",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Death_Of_1000_Cuts_SE_RawDOT",
+      "ID": "a79e8b0c-458a-4e07-871b-803d58b9dc5a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Spiritshift_Boar_SE_RawDamage",
+      "ID": "33b22e2d-a4b2-4da9-92d8-e1f525817541",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Insect_Swarm_SE_RawDOT",
+      "ID": "84797dca-9a9e-4e5f-9846-0e690c58c2b0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Taste_of_the_Hunt_SE_RawDOT",
+      "ID": "3882b054-57be-496d-94fe-d8a026f30c8f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Infestation_of_Maggots_SE_RawDOTScaling",
+      "ID": "e8caf187-ae40-4280-802f-940c7b918257",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Plague_of_Insects_SE_RawDOT",
+      "ID": "69a443a9-da37-4f10-9e40-95da6b4536cc",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Resonant_Touch_SE_DisplayOnly",
+      "ID": "226044f6-53eb-42b5-ad1b-1402057483ac",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Resonant_Touch_SE_RawDamage",
+      "ID": "559ba954-e4ea-4e65-936a-1b0ee6c03287",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shared_Pain_SE_Bleed",
+      "ID": "8030acda-c943-449a-9e4b-13612fe95a32",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lay_on_Hands_SE_RawDot",
+      "ID": "a49091dd-1c1b-4172-9a3d-cbdb9fd75b4c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sacred_Immolation_SE_RawDamageSelf",
+      "ID": "1994eb90-f4fc-4693-8bc4-a8f80b1f2223",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sacred_Immolation_Rathun_SE_RawDamageSelf",
+      "ID": "d409cb64-63a6-40e2-8192-f1d84a59be73",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Divine_Immolation_SE_RawDamageSelf",
+      "ID": "8cc17cb5-d05c-4768-9610-85e09d09af06",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sacred_Sacrifice_SE_RawDamageSelf",
+      "ID": "850c11f8-0d3a-48e4-a913-4c6bb4004b7a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Wounding_Shot_SE_RawDamage",
+      "ID": "2abf3fae-21ea-4ce5-b83f-ccee8cdc4412",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Accurate_Wounding_Shot_SE_RawDoT",
+      "ID": "e2f3f0fb-d3ff-4c3b-8b58-47b061f3c14a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Hobbling_Shot_SE_RawDoT",
+      "ID": "9488ef91-34cf-4ce3-91e2-f242ce38c93e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Play_Dead_SE_RawDamage",
+      "ID": "d62204b3-af87-43d5-a3ec-69982329a50a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Deadly_Surprise_SE_RawDamage",
+      "ID": "0a7f79ed-1094-4cfe-b416-2508de1a3970",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Whirling_Strikes_SE_RawDOT",
+      "ID": "c0cfb28b-05ea-4008-9e66-98932e60a138",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Arterial_Strike_SE_RawDOT",
+      "ID": "a9858555-f0c4-4641-81e7-447b88c08219",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Gouging_Strike_SE_RawDOT",
+      "ID": "c5b24be3-55e6-4be5-8189-e3ccfdfd30f3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Strike_The_Bell_SE_RawDamage",
+      "ID": "60343741-db08-4323-9b3c-69edf0d7041c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Break_The_Bell_SE_RawDamage",
+      "ID": "a24b845f-614f-4baa-8dca-82ce6a9ae504",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Deep_Wounds_SE_RawDOT",
+      "ID": "342c9717-aacb-4a52-b166-58f8a1b9b39e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pierce_The_Bell_SE_RawDamage",
+      "ID": "e20b8f80-c0d0-4bad-9ba7-5137a9be3aee",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Ring_The_Bell_SE_RawDamage",
+      "ID": "736be0f9-06b1-4937-9668-114c8b05b437",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Nannasins_Cobra_Strike_SE_RawDOT",
+      "ID": "967296f9-4c27-48d3-ba1c-25f20ef166e9",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Cloak_Of_Death_SE_RawDOT",
+      "ID": "4ef962b9-c4c1-4fb1-9a15-81de95176889",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Animat_Corrupted_Cleave_SE_Damage_DiseaseDoT",
+      "ID": "1676cdc4-a4cf-419a-893c-cce9be92e275",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Boar_Disembowel_SE_DoT",
+      "ID": "53fb4b22-7bd4-4410-aded-5021f4c0b260",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Boar_Gore_SE_DoT",
+      "ID": "1fcbd419-cd9e-4c5c-b571-eceddbe9b276",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "effigy_of_skaen_scourge_the_wicked_SEDoT",
+      "ID": "bda6d8d8-65bb-4129-8b66-cb20c32f6623",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Engwithan_Sentinel_EssenceLink_SE_Damage",
+      "ID": "28f5c50d-5438-4445-b229-b5cf48ce8018",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Eoten_GuttingStrike_SE_DoT",
+      "ID": "8f0e4a1d-e77f-40f9-b302-2b0f1a59029e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Eoten_Phrase_SweetBloodyMarrow_SE_Damage",
+      "ID": "0983f934-760b-40af-b0b3-557a1b769238",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "GraveHound_RottedMaul_SE_Damage",
+      "ID": "ba58a62a-2a98-469b-b964-ea8abe985c7e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lagufaeth_Ravager_CombatFrenzy_SE_Bleed",
+      "ID": "d5dc43b6-026c-4823-aaff-32f91596dabb",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "ogre_cutthroat_bladed_sweep_SEDoT",
+      "ID": "cab9c764-f579-48a7-be25-3eccee9447da",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Panther_RakingSlash_SE_DamageDoT",
+      "ID": "cf2c28ff-be33-4fbf-8130-1c3751b3990c",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Spiderling_Desert_Combustion_SE_RawDoT",
+      "ID": "03118503-b899-4ec7-bbf6-cfda8cdba8a6",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Tentacle_Kraken_ToxicSpines_SE_Damage",
+      "ID": "c63b9168-44db-465d-a16a-12d145acbd45",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "tiger_bleed_on_crit_SEBleed",
+      "ID": "2760d229-0559-49e5-ab06-2df10c7b50d0",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "WarDog_Maul_SE_Damage",
+      "ID": "ab32660b-4703-42c0-be93-acc73b780ec5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "xaurip_skirmisher_poisoned_strike_SE_DoT",
+      "ID": "bcf72efb-0ea7-4e6e-88a1-d983fe6dd928",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Bomb_Grenade_SE_Bleed",
+      "ID": "cdf3c12d-ff63-49d0-9acc-b04cbb42f2c6",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Poison_fugue_spores_SE_Damage",
+      "ID": "4022e568-6522-420f-a7f6-a5cdfe2d9a6e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Poison_razorgill_dust_SE_BleedDoT",
+      "ID": "c66dab37-92b7-4414-9036-a838bbff1b71",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Caltrops_Trap_SE_DoT",
+      "ID": "71432e1b-08f2-41d9-8c50-9385f0440672",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Pet_Concelhaut_Visage_of_Concelhaut_SE_RawDoT",
+      "ID": "5127f318-354f-43be-ac2d-a2aff249cf02",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Battle_Axe_Bleeding_Cut_SE_Damage",
+      "ID": "c82e40fb-c5a6-4157-a473-237cbdcda06d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sceptre_Destructive_Channeling_SE_Damage",
+      "ID": "cc8e35f2-9212-4a73-9a16-169e7adab14a",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Shadow_fang_SE_PoisonDoT",
+      "ID": "e6fc30a9-206a-4e1b-aa4a-61f39cdb6f49",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Death_in_Life_SE_RawDoT",
+      "ID": "d5207559-145a-4416-ad3a-223490bf7b49",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Dripping_fangs_SE_DoT",
+      "ID": "c6e615f5-5957-42cb-8201-08c5a7ba66ec",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mournful_Toll_SE_RawDamage",
+      "ID": "6d3b7b49-063b-4988-8c8a-fdedfc5ef600",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "True_Loves_Kiss_SE_RawDoT",
+      "ID": "7f8a6be0-2db6-48fe-800e-33b32c4f0ddb",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Lacerating_SE_DoT",
+      "ID": "4e396663-6b8c-4e93-8d72-cc4823557ac5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Maiming_SE_DoT",
+      "ID": "48a6b8fe-d69c-49c9-9799-0ed641853c73",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Weeping_wounds_SE_Damage",
+      "ID": "10b997c5-8edb-4c2f-b63d-f1f50a9686ea",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Soul_Breaker_SE_Damage",
+      "ID": "abe45ae5-5835-4cf5-aaa9-2090c45566a5",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Soul_Drinker_SE_RawDamage",
+      "ID": "d670b5f5-3e00-405c-812a-65a86f12a640",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Run_Through_SE_RawDamage",
+      "ID": "a3055a74-e174-4f08-9978-dd0f4a241042",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Finality_SE_RawDoT",
+      "ID": "967e995f-c5c5-407b-bcb0-b9b6ebf2500d",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "The_Mind_Makes_Real_SE_DoT",
+      "ID": "69caac40-e0aa-4a5d-a278-b397cf061a6e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Hounding_SE_BleedDoT",
+      "ID": "200a230c-2552-4a9f-b936-ee1fd7fcb393",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Corsairs_Voulge_Static_Charge_SE_DisplayOnly",
+      "ID": "35088f15-3deb-415c-918f-e5c30d95938e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Counterattack_SE_Damage",
+      "ID": "8ab57def-c7e4-4243-b5cc-98962cbc6f23",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Red_Flag_Flying_SE_BleedDoT",
+      "ID": "d5e930a5-8eb3-45e0-8fda-6d7580d6e8ad",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mortal_wounds_SE_BleedDoT",
+      "ID": "da6be678-33ff-4f13-90d2-d5d35ab3402f",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Wounding_SE_BleedDoT",
+      "ID": "cb861c86-c599-40cf-a8c2-c93a85369626",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Knife_in_the_back_SE_RawDoT",
+      "ID": "4226ed08-1f67-4ac2-a147-1eb65f5ce626",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Twist_The_Knife_SE_RawDoT",
+      "ID": "72e65d32-0fd0-4c87-8506-03d994032d27",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Sacrifice_of_Saints_SE_Damage",
+      "ID": "daf64f92-c670-48a1-8030-140fbd4325d3",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "OverridePenetration": 7
+        }
+      ]
+    }
+  ]
+}
