@@ -1,0 +1,28 @@
+{
+    "GameDataObjects": [
+    	{
+            "$type": "Game.GameData.WeaponGameData, Assembly-CSharp",
+            "DebugName": "Arquebus_U_Dragons_Dowry",
+            "ID": "1261d34f-af56-42c4-983e-bee8f11c28b5",
+            "Components": [
+				{
+					"$type": "Game.GameData.WeaponComponent, Assembly-CSharp",
+					"Stance": "TwoHandedOpenGrip",
+					"AnimationStanceID": "8b44b5d1-cc10-4b13-b828-710043565f44",
+					"StatusEffectsOnLaunchIDs": [],
+					"IsDisplayedWhenAlternate": "true",
+					"IsUniversalType": "false",
+					"AttackID": "1f42e7ca-dd1a-47ed-89fc-1fd0cd97e24b",
+					"NoiseLevelID": "6bfdad12-a1d0-42cc-b797-c9d2dac2af05",
+					"ForceBackScabbard": "false",
+					"ScabbardAppearancePiece": {
+					"ModelVisualDataPath": ""
+					},
+					"ScabbardRendererPrefab": "",
+					"ScabbardModel": "",
+					"AudioEventListID": "00000000-0000-0000-0000-000000000000"
+				}
+            ]
+        }
+    ]
+}
