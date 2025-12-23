@@ -1,0 +1,99 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Blunderbuss_initial_attack_KW",
+      "ID": "4ea5b250-dba9-4fdf-b389-31a41c158ba9",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 35999,
+          "AbilitiesDisplayString": 35998,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "",
+          "TintableIcon": ""
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Blunderbuss_Powder_Burns_SE_AttackOnEvent",
+      "ID": "9fcf22e5-f5d6-4061-bed9-436e973e3f4e",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "AttackFilter": {
+            "KeywordsIDs": [
+              "4ea5b250-dba9-4fdf-b389-31a41c158ba9"
+            ],
+            "KeywordLogic": "Or",
+            "Race": "None",
+            "IsKith": "false",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
+            "Range": "None",
+            "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+            "Source": "Weapon",
+            "DefendedBy": "None",
+            "Empowered": "false",
+            "Disengagement": "false",
+            "Stealthed": "false",
+            "UseStealthLinger": "false",
+            "PowerLevel": 0,
+            "PowerLevelOperator": "EqualTo",
+            "ChanceToApply": 1,
+            "AttackHostility": "Default",
+            "TargetType": "None"
+          }
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackFirearmGameData, Assembly-CSharp",
+      "DebugName": "Blunderbuss",
+      "ID": "d5448221-43d4-4533-a941-e2e4e2889032",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "f25230f4-fca2-44af-b745-03f026152459",
+            "1b6d77c8-1155-4d49-9c7c-548716f0d409",
+            "4ea5b250-dba9-4fdf-b389-31a41c158ba9"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackFirearmGameData, Assembly-CSharp",
+      "DebugName": "Blunderbuss_Serafen",
+      "ID": "2af49303-b215-42aa-b933-7b0497a1c19d",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "f25230f4-fca2-44af-b745-03f026152459",
+            "1b6d77c8-1155-4d49-9c7c-548716f0d409",
+            "d0cef78d-856b-4d8c-82d2-59c1ed2aa396",
+            "4ea5b250-dba9-4fdf-b389-31a41c158ba9"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.AttackFirearmGameData, Assembly-CSharp",
+      "DebugName": "Kitchen_Stove_Attack",
+      "ID": "cff3e32f-6cc6-4428-965d-0fcf9e3b05e0",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "KeywordsIDs": [
+            "f25230f4-fca2-44af-b745-03f026152459",
+            "1b6d77c8-1155-4d49-9c7c-548716f0d409",
+            "4ea5b250-dba9-4fdf-b389-31a41c158ba9"
+          ]
+        }
+      ]
+    }
+  ]
+}
