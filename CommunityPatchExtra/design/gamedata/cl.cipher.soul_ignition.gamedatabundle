@@ -1,0 +1,27 @@
+{
+    "GameDataObjects": [
+        {
+            "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
+            "DebugName": "Soul_Ignition_Target",
+            "ID": "8a28872a-63bd-48fe-a4ab-76bb69145d83",
+            "Components": [
+                {
+                    "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+                    "DefendedBy": "Will"
+                }
+            ]
+        },
+        {
+            "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+            "DebugName": "Soul_Ignition_SE_DOT",
+            "ID": "26a1f95a-16b1-40a7-93af-1beabaf04e4e",
+            "Components": [
+                {
+                    "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+                    "BaseValue": 20,
+                    "Duration": 18
+                }
+            ]
+        }
+    ]
+}
