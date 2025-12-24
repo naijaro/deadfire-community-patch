@@ -1,0 +1,15 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Confounding_Blind_SE_Deflection",
+      "ID": "b9362648-2d0d-4f57-b67b-a3be15d12f30",
+      "Components": [
+        {
+          "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+          "IsHostile": "true"
+        }
+      ]
+    }
+  ]
+}
