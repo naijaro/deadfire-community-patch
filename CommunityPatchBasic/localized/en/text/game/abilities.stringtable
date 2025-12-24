@@ -93,5 +93,10 @@ Required threshold to gain Wounds is increased.</DefaultText>
       <DefaultText>The rogue looks for openings to counterattack in combat. Incoming melee attacks that target Deflection and Miss or Graze have a chance of allowing an instant Full Attack Riposte. (Requires a melee weapon)</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>20808</ID>
+      <DefaultText>Calls forth fiery talons causing Slash and Burn damage to enemies in the area of effect.</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

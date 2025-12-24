@@ -86,5 +86,10 @@
       <DefaultText>Aвантюрист ищет возможность для контратаки в бою. Вражеские атаки ближнего боя, которые нацеливаются на Отклонение и &lt;link="glossary://GlossaryEntry_Miss"&gt;промахиваются&lt;/link&gt; или заканчиваются &lt;link="glossary://GlossaryEntry_Graze"&gt;легким попаданием&lt;/link&gt;, дают шанс на ответный удар &lt;link="glossary://GlossaryEntry_Full_Attack"&gt;Полной атакой&lt;/link&gt; (требуется оружие ближнего боя).</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>20808</ID>
+      <DefaultText>Создает объятые огнем когти, наносящие рубящий и огненный урон врагам в области действия.</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

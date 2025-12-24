@@ -1,14 +1,286 @@
 ﻿{
 	"GameDataObjects": [
 		{
+			"$type": "Game.GameData.PhraseGameData, Assembly-CSharp",
+			"DebugName": "The_Dragon_Thrashed_The",
+			"ID": "71aa6cfa-da2b-4e9a-8ad4-ef14dfce7f2f",
+			"Components": [
+			  {
+				"$type": "Game.GameData.PhraseComponent, Assembly-CSharp",
+				"Description": 20808,
+				"StatusEffectKeywordsIDs": []
+			  }
+			]
+		},
+		{
 			"$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
 			"DebugName": "The_Dragon_Thrashed_The_Attack",
 			"ID": "a5563aa7-5dae-4e86-94b3-8f1e49a8addf",
 			"Components": [
-				{
-					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-					"RandomizeStatusEffect": "false"
+			  {
+				"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+				"KeywordsIDs": [],
+				"StatusEffectKeywordsIDs": [],
+				"StatusEffectsIDs": [
+				  "e93cd09f-f311-46a0-95fb-12bf05f242bd",
+				  "1c2f9697-1a3c-486b-b4c4-ef866d77d4ff"
+				],
+				"RandomizeStatusEffect": "false",
+				"ExtraAttackID": "8aa410b5-2eaf-40a3-846a-3c5990482a74"
+			  }
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
+			"DebugName": "The_Dragon_Thrashed_The_Attack_Burn",
+			"ID": "8aa410b5-2eaf-40a3-846a-3c5990482a74",
+			"Components": [
+			  {
+				"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+				"KeywordsIDs": ["f0dbb330-1b06-4175-8ce4-efe790b99213"],
+				"AttackDistance": 6,
+				"MinAttackDistance": 0,
+				"AttackVariationID": "35abdf41-fc3f-4310-8d5d-5d7da644affc",
+				"UseParentEquippableHand": "false",
+				"CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+				"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
+				"OverrideTacticalActionType": "None",
+				"ImpactDelay": 0,
+				"ForcedTarget": "None",
+				"AffectedTargetType": "Hostile",
+				"AffectedTargetConditional": {
+				  "Conditional": {
+					"Operator": 0,
+					"Components": []
+				  }
+				},
+				"AffectedTargetDeathState": "Alive",
+				"HostilityOverride": "Default",
+				"PushDistance": 0,
+				"FaceTarget": "true",
+				"AccuracyBonus": 0,
+				"PenetrationRating": 7,
+				"DamageData": {
+				  "DamageType": "None",
+				  "AlternateDamageType": "None",
+				  "Minimum": 0,
+				  "Maximum": 0,
+				  "TacticalMinimumOverride": 0,
+				  "TacticalMaximumOverride": 0,
+				  "DamageProcs": []
+				},
+				"RequiresHitObject": "true",
+				"StatusEffectKeywordsIDs": [
+				  "f0dbb330-1b06-4175-8ce4-efe790b99213"
+				],
+				"StatusEffectsIDs": [
+				  "9af1bee4-3dc1-4306-bc24-62d75e1c79cd"
+				],
+				"RandomizeStatusEffect": "false",
+				"CanGraze": "false",
+				"CanCrit": "true",
+				"DefendedBy": "Reflex",
+				"AfflictionsDefendedBy": "None",
+				"AfflictionApplicationModifier": "None",
+				"SubstituteHitVisualEffect": "",
+				"VisualEffects": [],
+				"AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+				"ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+				"LaunchBone": "RightWeapon",
+				"HitBone": "Chest",
+				"OnHitShakeDuration": "None",
+				"OnHitShakeStrength": "None",
+				"NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+				"AllReactNoise": "false",
+				"InterruptsOn": "None",
+				"InterruptType": "Normal",
+				"TargetAngle": 0,
+				"ApplyOnceOnly": "false",
+				"PathsToTarget": "true",
+				"HideFromCombatLog": "false",
+				"AdditionalAttackOnTooltip": "true",
+				"DoesNotApplyDamage": "false",
+				"TreatAsWeapon": "false",
+				"BounceData": {
+				  "Bounces": 0,
+				  "Multiplier": 0.5,
+				  "Range": 10,
+				  "InRangeOrder": "false",
+				  "NoRepeatTargets": "false",
+				  "AlwaysBounceAtEnemies": "false",
+				  "Delay": 0,
+				  "NeverBounce": "false"
+				},
+				"AttackValidityConditional": {
+				  "Conditional": {
+					"Operator": 0,
+					"Components": []
+				  }
 				}
+			  },
+			  {
+				"$type": "Game.GameData.AttackMeleeComponent, Assembly-CSharp",
+				"EngagementRadius": 1,
+				"IsUnarmed": "false"
+			  }
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "The_Dragon_Thrashed_The_SE_SlashDmg",
+			"ID": "e93cd09f-f311-46a0-95fb-12bf05f242bd",
+			"Components": [
+			  {
+				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+				"StatusEffectType": "Damage",
+				"OverrideDescriptionString": 20672,
+				"OverrideDescriptionStringTactical": 20672
+			  }
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "The_Dragon_Thrashed_The_SE_BurnDmg",
+			"ID": "9af1bee4-3dc1-4306-bc24-62d75e1c79cd",
+			"Components": [
+			  {
+				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+				"StatusEffectType": "Damage",
+				"OverrideDescriptionString": -1,
+				"OverrideDescriptionStringTactical": -1,
+				"KeywordsIDs": ["f0dbb330-1b06-4175-8ce4-efe790b99213"],
+				"HideFromCombatTooltip": "false",
+				"HideFromCombatLog": "false",
+				"HideFromUI": "false",
+				"HideIfNoValue": "false",
+				"DamageTypeValue": "Burn"
+			   }
+			]
+		},
+		{
+			"$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+			"DebugName": "The_Dragon_Thrashed_The_SE_BurnDmg_Description_Helper",
+			"ID": "1c2f9697-1a3c-486b-b4c4-ef866d77d4ff",
+			"Components": [
+			  {
+				"$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
+				"StatusEffectType": "None",
+				"OverrideDescriptionString": 20674,
+				"OverrideDescriptionStringTactical": 20674,
+				"UseStatusEffectValueAs": "None",
+				"BaseValue": 4,
+				"DynamicValue": {
+				  "Stat": "None",
+				  "SkillDataID": "00000000-0000-0000-0000-000000000000",
+				  "ClassID": "00000000-0000-0000-0000-000000000000",
+				  "MultiplyBy": 1,
+				  "Operator": "Add"
+				},
+				"KeywordsIDs": [],
+				"DurationType": "UseDurationTime",
+				"Duration": 6,
+				"MaxStackQuantity": 0,
+				"ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+				"ApplicationType": "ApplyOnTick",
+				"IntervalRateID": "25acc41f-26a4-4ef7-9b7d-0f1bf0ddfe9f",
+				"StackedChildrenApplyEffects": "false",
+				"InclusionConditions": {
+				  "Operator": 0,
+				  "Components": []
+				},
+				"ApplicationPrerequisites": {
+				  "Conditional": {
+					"Operator": 0,
+					"Components": []
+				  }
+				},
+				"TriggerAdjustment": {
+				  "TriggerOnEvent": "None",
+				  "TriggerOffEvent": "None",
+				  "ValidateWithAttackFilter": "false",
+				  "ParamValue": 0,
+				  "ValueAdjustment": 0,
+				  "DurationAdjustment": 0,
+				  "ResetTriggerOnEffectTimeout": "false",
+				  "MaxTriggerCount": 0,
+				  "IgnoreMaxTriggerCount": "false",
+				  "RemoveEffectAtMax": "false",
+				  "ChanceToTrigger": 1
+				},
+				"PowerLevelScaling": {
+				  "UseCharacterLevel": "false",
+				  "BaseLevel": 0,
+				  "LevelIncrement": 1,
+				  "MaxLevel": 0,
+				  "ValueAdjustment": 0,
+				  "DurationAdjustment": 0
+				},
+				"IsHostile": "true",
+				"ClearOnCombatEnd": "false",
+				"ClearOnRest": "false",
+				"ClearOnFoodRest": "false",
+				"ClearWhenAttacks": "false",
+				"ClearOnDeath": "false",
+				"HideFromCombatTooltip": "true",
+				"HideFromCombatLog": "true",
+				"HideFromUI": "false",
+				"HideIfNoValue": "false",
+				"VisualEffects": [],
+				"MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+				"AttackFilter": {
+				  "KeywordsIDs": [],
+				  "KeywordLogic": "Or",
+				  "Race": "None",
+				  "IsKith": "false",
+				  "HealthPercentage": 0,
+				  "HealthOperator": "EqualTo",
+				  "Range": "None",
+				  "ClassTypeID": "00000000-0000-0000-0000-000000000000",
+				  "Source": "None",
+				  "DefendedBy": "None",
+				  "Empowered": "false",
+				  "Disengagement": "false",
+				  "Stealthed": "false",
+				  "UseStealthLinger": "false",
+				  "PowerLevel": 0,
+				  "PowerLevelOperator": "EqualTo",
+				  "ChanceToApply": 1,
+				  "AttackHostility": "Default",
+				  "TargetType": "None"
+				},
+				"AttackTargetFilter": {
+				  "KeywordsIDs": [],
+				  "KeywordLogic": "Or",
+				  "Race": "None",
+				  "IsKith": "false",
+				  "HealthPercentage": 0,
+				  "HealthOperator": "EqualTo",
+				  "Distance": 0,
+				  "DistanceOperator": "EqualTo",
+				  "HasDOT": "false",
+				  "IsMarked": "false",
+				  "TargetHostility": "Default"
+				},
+				"ExtraValue": 0,
+				"OverridePenetration": 0,
+				"DamageTypeValue": "Burn",
+				"KeywordValueID": "00000000-0000-0000-0000-000000000000",
+				"RaceValue": "None",
+				"StatusEffectTypeValue": "None",
+				"ItemValueID": "00000000-0000-0000-0000-000000000000",
+				"AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
+				"StatusEffectsValueIDs": [],
+				"AttackValueID": "00000000-0000-0000-0000-000000000000",
+				"AttackOverrideValue": "None",
+				"EventValue": "OnApply",
+				"ClassValueID": "00000000-0000-0000-0000-000000000000",
+				"WeaponTypeValue": "None",
+				"AttackHitType": "None",
+				"SkillValueID": "00000000-0000-0000-0000-000000000000",
+				"AudioEventListID": "00000000-0000-0000-0000-000000000000",
+				"BedRestDaysMinimum": 0,
+				"BedRestDaysMaximum": 0
+			  }
 			]
 		}
 	]
