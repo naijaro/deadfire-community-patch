@@ -1,0 +1,64 @@
+﻿{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.CastSpeedGameData, Assembly-CSharp",
+			"DebugName": "SemiFast",
+			"ID": "e5342105-6587-43b2-b84f-1247c420a7be",
+			"Components": [
+				{
+					"$type": "Game.GameData.CastSpeedComponent, Assembly-CSharp",
+					"DisplayName": 1474,
+					"Duration": 1.5
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Glorious_Beacon_AOE",
+			"ID": "86ba4d39-402c-4f9b-b632-404d0e1af819",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e5342105-6587-43b2-b84f-1247c420a7be",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Beacon_AllyAOE",
+			"ID": "2790b439-a3a4-40c9-8ede-0693e2640b4e",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e5342105-6587-43b2-b84f-1247c420a7be",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Beacon_AOE",
+			"ID": "a2248a13-33bb-4958-a8b2-c3230a48e989",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e5342105-6587-43b2-b84f-1247c420a7be",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Inspired_Beacon_AOE",
+			"ID": "96bb8e46-c371-4a90-b2b5-bc90541a437d",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e5342105-6587-43b2-b84f-1247c420a7be",
+					"RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847"
+				}
+			]
+		}
+	]
+}
