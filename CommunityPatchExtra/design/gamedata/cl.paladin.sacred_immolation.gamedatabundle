@@ -1,0 +1,37 @@
+{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sacred_Immolation",
+			"ID": "2d77c834-a37f-43d4-a3ca-80d9a6aa13bf",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Divine_Immolation",
+			"ID": "348f44a5-0c1e-45b4-b64a-38166fd6d955",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Sacred_Sacrifice",
+			"ID": "945f96a3-3e29-4711-a129-1e9c7403b5fc",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"UsageValue": 3
+				}
+			]
+		}
+	]
+}
