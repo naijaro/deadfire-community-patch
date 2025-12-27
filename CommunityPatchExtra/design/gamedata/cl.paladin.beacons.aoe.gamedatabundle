@@ -1,0 +1,96 @@
+﻿{
+	"GameDataObjects": [
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Glorious_Beacon_AOE",
+			"ID": "86ba4d39-402c-4f9b-b632-404d0e1af819",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd"
+				},
+				{
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastSize": "Medium",
+					"BlastRadiusOverride": 2.5,
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"IgnoreParentTarget": "false",
+					"ExcludeSelf": "true",
+					"BlastPhysicsForce": 500,
+					"PushFromCaster": "false"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Beacon_AllyAOE",
+			"ID": "2790b439-a3a4-40c9-8ede-0693e2640b4e",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd"
+				},
+				{
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastSize": "Medium",
+					"BlastRadiusOverride": 2.5,
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"IgnoreParentTarget": "false",
+					"ExcludeSelf": "false",
+					"BlastPhysicsForce": 500,
+					"PushFromCaster": "false"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Enduring_Beacon_AOE",
+			"ID": "a2248a13-33bb-4958-a8b2-c3230a48e989",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd"
+				},
+				{
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastSize": "Medium",
+					"BlastRadiusOverride": 2.5,
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"IgnoreParentTarget": "false",
+					"ExcludeSelf": "true",
+					"BlastPhysicsForce": 500,
+					"PushFromCaster": "false"
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+			"DebugName": "Inspired_Beacon_AOE",
+			"ID": "96bb8e46-c371-4a90-b2b5-bc90541a437d",
+			"Components": [
+				{
+					"$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+					"CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+					"RecoveryTimeID": "2065a64b-0d53-48b8-9cfd-600992c389fd"
+				},
+				{
+					"$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+					"BlastSize": "Medium",
+					"BlastRadiusOverride": 2.5,
+					"DamageAngle": 360,
+					"ExcludePrimaryTarget": "false",
+					"IgnoreParentTarget": "false",
+					"ExcludeSelf": "true",
+					"BlastPhysicsForce": 500,
+					"PushFromCaster": "false"
+				}
+			]
+		}
+	]
+}
