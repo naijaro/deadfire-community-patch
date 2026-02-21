@@ -1,104 +1,6 @@
 ﻿{
 	"GameDataObjects": [
 		{
-			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-			"DebugName": "Backstab",
-			"ID": "8a9da061-40b3-478c-be72-1b85bb112766",
-			"Components": [
-				{
-					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
-					"Description": 20500,
-					"ActivationPrerequisites": {
-						"Conditional": {
-							"Operator": 0,
-							"Components": [
-								{
-									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-									"Data": {
-										"FullName": "Boolean IsCharacterStealthed(Guid)",
-										"Parameters": [
-											"011111e9-0000-0000-0000-000000000000"
-										],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 0,
-										"ParameterHash": 0
-									},
-									"Not": false,
-									"Operator": 1
-								},
-								{
-									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-									"Data": {
-										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
-										"Parameters": [
-											"011111e9-0000-0000-0000-000000000000",
-											"fe80a668-dcb3-4cea-ae2e-70d47dc91348"
-										],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 0,
-										"ParameterHash": 0
-									},
-									"Not": false,
-									"Operator": 1
-								}
-							]
-						}
-					},
-					"ApplicationPrerequisites": {
-						"Conditional": {
-							"Operator": 0,
-							"Components": []
-						}
-					},
-					"DeactivationPrerequisites": {
-						"Conditional": {
-							"Operator": 0,
-							"Components": [
-								{
-									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-									"Data": {
-										"FullName": "Boolean IsCharacterStealthed(Guid)",
-										"Parameters": [
-											"011111e9-0000-0000-0000-000000000000"
-										],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 0,
-										"ParameterHash": 0
-									},
-									"Not": true,
-									"Operator": 0
-								},
-								{
-									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-									"Data": {
-										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
-										"Parameters": [
-											"011111e9-0000-0000-0000-000000000000",
-											"fe80a668-dcb3-4cea-ae2e-70d47dc91348"
-										],
-										"Flags": "",
-										"UnrealCall": "",
-										"FunctionHash": 0,
-										"ParameterHash": 0
-									},
-									"Not": true,
-									"Operator": 0
-								}
-							]
-						}
-					},
-					"StatusEffectsIDs": [
-						"498a92c7-3ef1-4bc4-9b4a-79799fad41c3",
-						"2d02288e-abba-4775-a12c-938571a1ab73",
-						"f0538834-ea4a-452c-a4fb-cefe1d4ace85"
-					]
-				}
-			]
-		},
-		{
 			"$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
 			"DebugName": "Backstab_Attack",
 			"ID": "7a1547d7-49d0-4f83-9634-6a3ce15b9a1d",
@@ -1093,6 +995,104 @@
 					"AudioEventListID": "00000000-0000-0000-0000-000000000000",
 					"BedRestDaysMinimum": 0,
 					"BedRestDaysMaximum": 0
+				}
+			]
+		},
+		{
+			"$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+			"DebugName": "Backstab",
+			"ID": "8a9da061-40b3-478c-be72-1b85bb112766",
+			"Components": [
+				{
+					"$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+					"Description": 20500,
+					"ActivationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsCharacterStealthed(Guid)",
+										"Parameters": [
+											"011111e9-0000-0000-0000-000000000000"
+										],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 0,
+										"ParameterHash": 0
+									},
+									"Not": false,
+									"Operator": 1
+								},
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"Parameters": [
+											"011111e9-0000-0000-0000-000000000000",
+											"fe80a668-dcb3-4cea-ae2e-70d47dc91348"
+										],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 0,
+										"ParameterHash": 0
+									},
+									"Not": false,
+									"Operator": 1
+								}
+							]
+						}
+					},
+					"ApplicationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": []
+						}
+					},
+					"DeactivationPrerequisites": {
+						"Conditional": {
+							"Operator": 0,
+							"Components": [
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean IsCharacterStealthed(Guid)",
+										"Parameters": [
+											"011111e9-0000-0000-0000-000000000000"
+										],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 0,
+										"ParameterHash": 0
+									},
+									"Not": true,
+									"Operator": 0
+								},
+								{
+									"$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+									"Data": {
+										"FullName": "Boolean HasStatusEffectWithKeyword(Guid, Guid)",
+										"Parameters": [
+											"011111e9-0000-0000-0000-000000000000",
+											"fe80a668-dcb3-4cea-ae2e-70d47dc91348"
+										],
+										"Flags": "",
+										"UnrealCall": "",
+										"FunctionHash": 0,
+										"ParameterHash": 0
+									},
+									"Not": true,
+									"Operator": 0
+								}
+							]
+						}
+					},
+					"StatusEffectsIDs": [
+						"498a92c7-3ef1-4bc4-9b4a-79799fad41c3",
+						"2d02288e-abba-4775-a12c-938571a1ab73",
+						"f0538834-ea4a-452c-a4fb-cefe1d4ace85"
+					]
 				}
 			]
 		}
